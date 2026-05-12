@@ -571,12 +571,12 @@ void s2_2_OpenFileRequests(char *filenameRequests, FILE **pfRequests) {
         fclose(fCreate);
     }
 
-    if((*pfRequests = fopen(filenameRequests, "r")) == NULL){
+    if(*pfRequests = fopen(filenameRequests, "r") == NULL){
         so_error("S2.2", "Error opening pedidos.dat");
-        exit(ERROR);
+        exit(ERROR)
     }
  
-    so_success("S2.2", "%s", filenameRequests);
+    //so_success("S2.2", "%s", filenameRequests);
     so_debug("> [[@param(O) *pfRequests:%p]", *pfRequests);
 }
 
