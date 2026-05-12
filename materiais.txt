@@ -1,0 +1,10 @@
+Ferro;1;1000
+Aluminio;2;300
+Cobre Novo;20;950
+Cobre Velho;13;750
+Borracha;3;1600
+Chapa Zincada;15;890
+Latao;6;270
+Ferro Forjado;10;2400
+Plastico;5;800
+Vidro;12;1040
